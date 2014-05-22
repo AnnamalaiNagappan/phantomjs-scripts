@@ -1,3 +1,14 @@
+/*  
+  Run this file by opening the command prompt and then point to phantomjs.exe followed by this 
+  file location.
+
+  Pass website url as the first argument and the file format that you want the page to be saved as 
+  jpeg, gif, png, pdf.
+
+  Example:
+      C:\phantomjs\phantomjs.exe C:\phantomjs\code_phantom_js\screenshot.js https://www.google.com pdf
+*/
+
 var system = require('system');
 var url=system.args[1];
 var format=system.args[2]; // Read the image format

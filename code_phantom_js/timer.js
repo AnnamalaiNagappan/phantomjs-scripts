@@ -1,3 +1,11 @@
+/*  
+  Makes use of module.js to create a simple timer function.
+
+  Example:
+      C:\phantomjs\phantomjs.exe C:\phantomjs\code_phantom_js\timer.js
+*/
+
+
 exports.timeStart = null;
 exports.timeStop = null;
 exports.duration = 0;

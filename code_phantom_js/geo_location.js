@@ -1,3 +1,12 @@
+/*  
+  This script make use of the 'http://freegeoip.net/json/' API to get the
+  information about your location.
+
+  Example:
+      C:\phantomjs\phantomjs.exe C:\phantomjs\code_phantom_js\geo_location.js
+*/
+
+
 var page=require('webpage').create();
 page.open('http://freegeoip.net/json/',function(status){
   if(status == 'success'){
